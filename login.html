@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        /* page format */
+        body{
+            font-family: Arial,sans-serif;
+            background-image: url(photo/regist.jpg);
+            background-size: cover;
+           
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        /* background register foramt */
+        .register-form{
+            background-color: white;
+            padding: 30px; /*size white */
+            border-radius: 70px; /*shape white  */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+
+        }
+        /* text log in format */
+        .register-form h2{
+            text-align: center;
+            margin-bottom: 20px; /* space between login email */
+        }
+        /* label format */
+        .register-form label {
+            font-size: 14px;
+            margin-bottom: 5px; /*space */
+            display: block;
+        }
+        /* input format */
+        .register-form input{
+            width: 90%;
+            padding: 10px; 
+            margin-bottom: 15px;
+            border-radius: 70px;
+        }
+        /* button log in format */
+        .register-form button{
+            width: 100%;
+            padding: 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 55px;
+        }
+        /* change button log in color */
+        .register-form button:hover {
+            background-color: #45a049;
+        }
+        /* don't have accout format  */
+        .register-form p {
+            text-align: center;
+            font-size: 14px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="register-form">
+        <h2>Log In</h2>
+        <form>
+            <!-- email -->
+            <label for="email">email</label>
+            <input type="email" id="email" required ><br>
+            <!-- password -->
+            <label for="pass">password</label>
+            <input type="password" id="pass" required ><br>
+            <!-- button login -->
+            <button type="submit">Login</button>
+            <!-- sing up -->
+            <p>Don't have an account ?<a href="D:\CS\project it\register.html" target="_blank"> Sing up</a></p>
+
+        </form>
+    </div>
+    
+</body>
+</html>

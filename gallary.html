@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallary</title>
+    <style>
+        /* body format */
+        body {
+            font-family: Arial,sans-serif;
+            background-color: #f9f9f9;
+            color :#333;
+        }
+
+        /* text upper format */
+        header {
+            background-color: rgb(135, 176, 223);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* text upper page format */
+        header h1{
+            margin:0;
+            font-size: 2.5;
+        }
+
+        /* text format */
+        h2{
+            text-align: left;
+            color:green;
+        }
+        
+        /* links format */
+        nav{
+            background-color: #444;
+            padding: 10px;
+            overflow:hidden;  /* show format text gallary , log in, ..... */
+        }
+
+        /* text link format */
+        nav a{
+            color:white;
+            text-transform: none;
+            padding: 10px 15px;
+        }
+
+        /* change button format */
+        nav a:hover {
+            background-color: #666;
+        }
+
+        /* main format */
+        main {
+            padding: #666;
+        }
+        
+        /* image format */
+        .image-container {
+            text-align: center;
+            margin: 30px 0;  /* space */
+        }
+
+        /* edit image format */
+        .image-container img{
+            width: 100%;
+            max-width: 700px;
+            border-radius: 15px; /* el7waf*/
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+
+        }
+
+        /* under text web format */
+        footer {
+            background-color: rgb(135, 176, 223);
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- headline -->
+    <header>
+        <h1>Pyramids gallery</h1>
+    </header>
+
+    <!-- link -->
+    <nav>
+        <a href="home.html" target="_blank">Home</a>
+        <!-- <a href="#gallary">gallary</a> -->
+        <a href="about-me.html" target="_blank">about us </a>
+    </nav>
+
+    <!-- main -->
+    <main>
+        <section>
+            <h2>The most amazing pictures of the pyramids</h2>
+            <div class="image-container" style="color: black;">
+                <img src="photo/6.jpg" alt="pyramids">
+                <img src="photo/khufu.webp" alt="khufu">
+                <img src="photo/khefre.jpg" alt="khefre">
+                <img src="photo/menkaure.jpg" alt="menkaure">
+                <img src="photo/abo hoil.jpg" alt="abo h">
+
+                <h2>History's Greatest Mysteries: Unlocking the Secrets of Egypt's Pyramids</h2>
+                <p>Join us on a journey to explore one of the greatest mysteries of the ancient world - the pyramids of Egypt."The Puzzling Pyramids of Egypt".</p>
+                <video src="photo/Historys Greatest Mysteries Unlocking the Secrets of Egypts Pyramids (Season 4).mp4" type="video/mp4" controls="auto"></video>
+            </div>
+        
+        </section>
+    </main>
+
+    <footer>
+        <!-- text under web -->
+        <p>&copy;2024 All rights reserved to the Egyptian Pyramids website</p>
+    </footer>
+    
+</body>
+</html>
